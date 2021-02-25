@@ -1,0 +1,256 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+.container {
+    background: #9c6b6b;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+.mobileFrame {
+    background: red;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-top: 56px;
+}
+.mobileFrame {
+    background: url(icon/wallpapers.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-top: 56px;
+    border: 20px solid #171616;
+    border-radius: 13px 13px 13px 13px;
+    border-top: 64px solid #171616;
+    border-bottom: 64px solid #171616;
+}
+.speaker {
+    position: absolute;
+    width: 350px;
+}
+
+.speaker:before {content: "";position: absolute;top: -34px;left: 42%;width: 54px;height: 6px;background: #413939;border-radius: 20px;}
+.camera {
+    position: relative;
+    width: 350px;
+}
+
+.camera:after {content: "";position: absolute;top: -38px;left: 50px;width: 15px;height: 15px;background: #413939;border-radius: 50%;}
+
+.camera:before {content: "";position: absolute;top: -34.5px;left: 53.4px;width: 8px;height: 8px;background: #262323;z-index: 99;border-radius: 50%;}
+.backBtn:before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 79%;
+    background: #ffffff00;
+    width: 10px;
+    height: 10px;
+    transform: rotate(
+45deg
+);
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+}
+.backBtn {
+    position: relative;
+    width: 350px;
+}.homeBtn:before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 47%;
+    background: #ffffff00;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #c9b2b2;
+}
+.homeBtn {
+    position: relative;
+    width: 350px;
+}.historyBtn:before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 14%;
+    background: #ffffff00;
+    width: 12px;
+    height: 12px;
+    /* border-radius: 50%; */
+    border: 2px solid #c9b2b2;
+}
+.historyBtn {
+    position: relative;
+    width: 350px;
+}
+.content {
+    position: relative;
+    height: 500px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 350px;
+    bottom: 10px;
+	    flex-wrap: wrap;
+}
+.menu img {
+
+    width: 41px;
+}
+.navuser {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background: #9184848c;
+    padding: 00px 7px;
+    margin-top: -1px;
+}
+
+.meter {
+    color: white;
+    font-size: 14px;
+    padding: 2px 0px;
+}
+.navuser div {
+    padding: 3px 5px;
+    font-size: 13px;
+    color: white;
+}
+.homeBody {
+    position: absolute;
+    top: 75px;
+    left: 11%;
+}
+
+.HomeTime {
+    font-size: 60px;
+    color: white;
+	font-family: arial;
+}
+
+.HomeTime span {
+    font-size: 22px;
+}
+.Homedate {
+    color: white;
+    font-size: 10px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    margin-top: -8px;
+    font-family: arial;
+    margin-left: 24px;
+}
+.homeapp.menu {
+    bottom: 125px;
+}
+
+#page1{
+	display:none;
+}
+.page1 {
+    top: 51px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 350px;
+    flex-wrap: wrap;
+}.page1 img {
+    /* width: 20%; */
+    padding: 10px;
+}
+.page1 img {
+
+    width: 41px;
+}
+#page2{
+	display:none;
+}
+.page2 {
+    top: 51px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 350px;
+    flex-wrap: wrap;
+}.page2 img {
+    /* width: 20%; */
+    padding: 10px;
+}
+.page2 img {
+
+    width: 41px;
+}
+.navbutton {
+    position: absolute;
+    bottom: 72px;
+    width: 17%;
+    left: 40%;
+}
+.navbutton ul {
+    display: flex;
+    justify-content: space-around;
+	list-style:none;
+}
+li {
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+li.active {
+    background: black;
+}
+.displayHide{
+	display:none !important;
+}.navbutton{
+	display:none !important;
+}.displayShow{
+	display:block !important;
+}
+
+form {
+    width: 350px;
+    height: 100%;
+}
+.allbutton {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: black;
+}
+
+input[type=button] {
+    padding: 30px;
+    border: 0;
+    background: black;
+    color: white;
+    font-size: 28px;
+}
+input[type=button]:focus {
+    outline: none;
+}
+input#result {
+    width: 350px;
+    border: none;
+    font-size: 42px;
+    text-align: right;
+    padding: 32px 0px;
+}
+input#result:focus {
+    outline: none;
+}
+.cal{
+	display:none;
+	
+}
